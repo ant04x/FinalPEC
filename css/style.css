@@ -1,6 +1,4 @@
-#mainLogo {
-    height: 60%;
-}
+/*GENERAL*/
 
 .noDecoration {
     text-decoration: none;
@@ -8,12 +6,25 @@
     height: 100%;
 }
 
-.mdl-layout__header-row .mdl-navigation__link {
-    color: rgba(255, 255, 255);
+.mdl-textfield {
+    width: 12rem;
 }
 
-.mdl-mega-footer__bottom-section {
-    display: flex;
+.mdl-textfield__input {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.mdl-textfield__label {
+    color: rgba(255, 255, 255, 0.26);
+}
+
+/*FIN GENERAL*/
+
+
+/*HEADER*/
+
+#mainLogo {
+    height: 60%;
 }
 
 .mdl-layout__header-row .mdl-navigation__link {
@@ -40,18 +51,6 @@
     font-family: 'Roboto Mono', monospace;
 }
 
-.mdl-textfield {
-    width: 12rem;
-}
-
-.mdl-textfield__input {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
-}
-
-.mdl-textfield__label {
-    color: rgba(255, 255, 255, 0.26);
-}
-
 .demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type {
     padding-right: 0;
 }
@@ -66,64 +65,10 @@
     padding: 0;
 }
 
-.mdl-mini-footer__left-section {
-    margin: 0 auto;
-}
+/*FIN HEADER*/
 
-.mdl-mega-footer__middle-section,
-.mdl-mega-footer__bottom-section {
-    width: 960px;
-    margin: 0 auto;
-}
 
-.mdl-mega-footer__bottom-section .mdl-logo {
-    display: flex;
-    margin-bottom: 32px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-footer form {
-    width: 168px;
-}
-
-#suscribeButton {
-    display: flex;
-    margin: 10px auto;
-}
-
-.mdl-mini-footer__social-btn img {
-    width: 24px;
-}
-
-.mdl-mini-footer__right-section a {
-    text-decoration: none;
-}
-
-.mdl-mini-footer__social-btn {
-    cursor: pointer;
-}
-
-.mdl-mega-footer__middle-section {
-    display: flex;
-}
-
-.mdl-mega-footer__drop-down-section:nth-child(2) {
-    margin: 0 auto;
-    width: fit-content;
-}
-
-.mdl-mega-footer__drop-down-section {
-    margin: 0;
-}
-
-.mdl-mega-footer__link-list > li { 
-    margin-bottom: 20px;
-}
-
-.buttonForm {
-    display: inline;
-}
+/*MAIN*/
 
 .page-content {
     width: 960px;
@@ -235,6 +180,8 @@ footer form {
     background-color: #fefefe;
 }
 
+/*(MAIN) FIN IMAGE CARDS*/
+
 .mdl-list {
     margin-top: 0;
     background-color: #fefefe;
@@ -244,6 +191,68 @@ footer form {
     padding-top: 0;
 }
 
-.contrProfile {
-    width: 40px;
+/*FIN MAIN*/
+
+
+/*FOOTER*/
+
+.mdl-mega-footer__bottom-section {
+    display: flex;
 }
+
+.mdl-mini-footer__left-section {
+    margin: 0 auto;
+}
+
+.mdl-mega-footer__middle-section,
+.mdl-mega-footer__bottom-section {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.mdl-mega-footer__bottom-section .mdl-logo {
+    display: flex;
+    margin-bottom: 32px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer form {
+    width: 168px;
+}
+
+#suscribeButton {
+    display: flex;
+    margin: 10px auto;
+}
+
+.mdl-mini-footer__social-btn img {
+    width: 24px;
+}
+
+.mdl-mini-footer__right-section a {
+    text-decoration: none;
+}
+
+.mdl-mini-footer__social-btn {
+    cursor: pointer;
+}
+
+.mdl-mega-footer__middle-section {
+    display: flex;
+}
+
+.mdl-mega-footer__drop-down-section:nth-child(2) {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.mdl-mega-footer__drop-down-section {
+    margin: 0;
+}
+
+.mdl-mega-footer__link-list > li { 
+    margin-bottom: 20px;
+}
+
+/*FIN FOOTER*/
