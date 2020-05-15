@@ -1,0 +1,249 @@
+#mainLogo {
+    height: 60%;
+}
+
+.noDecoration {
+    text-decoration: none;
+    margin: auto;
+    height: 100%;
+}
+
+.mdl-layout__header-row .mdl-navigation__link {
+    color: rgba(255, 255, 255);
+}
+
+.mdl-mega-footer__bottom-section {
+    display: flex;
+}
+
+.mdl-layout__header-row .mdl-navigation__link {
+    color: rgb(255, 255, 255, 0.5);
+}
+
+.mdl-layout__header-row .mdl-navigation__link:hover {
+    color: white;
+}
+
+.mdl-layout__header-row .selectedLink,
+.mdl-layout__header-row .selectedLink:hover {
+    color: white;
+    font-weight: 600;
+}
+
+#mainHref {
+    height: 100%;
+    display: contents;
+    color: white;
+}
+
+#mainTitle {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.mdl-textfield {
+    width: 12rem;
+}
+
+.mdl-textfield__input {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.mdl-textfield__label {
+    color: rgba(255, 255, 255, 0.26);
+}
+
+.demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type {
+    padding-right: 0;
+}
+
+.mdl-layout-title {
+    margin-left: 13px;
+}
+
+.mdl-layout__header-row {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.mdl-mini-footer__left-section {
+    margin: 0 auto;
+}
+
+.mdl-mega-footer__middle-section,
+.mdl-mega-footer__bottom-section {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.mdl-mega-footer__bottom-section .mdl-logo {
+    display: flex;
+    margin-bottom: 32px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer form {
+    width: 168px;
+}
+
+#suscribeButton {
+    display: flex;
+    margin: 10px auto;
+}
+
+.mdl-mini-footer__social-btn img {
+    width: 24px;
+}
+
+.mdl-mini-footer__right-section a {
+    text-decoration: none;
+}
+
+.mdl-mini-footer__social-btn {
+    cursor: pointer;
+}
+
+.mdl-mega-footer__middle-section {
+    display: flex;
+}
+
+.mdl-mega-footer__drop-down-section:nth-child(2) {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.mdl-mega-footer__drop-down-section {
+    margin: 0;
+}
+
+.mdl-mega-footer__link-list > li { 
+    margin-bottom: 20px;
+}
+
+.buttonForm {
+    display: inline;
+}
+
+.page-content {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.mdl-layout__content {
+    background: linear-gradient(rgba(255,255,255,.90), rgba(255,255,255,.90)), url('../img/detalle/background.png') center / cover;
+}
+
+#logoFrame .mdl-card {
+    width: 100%;
+    height: 256px;
+    display: flex;
+    background: url('../img/detalle/C_Sharp_logo.svg') center / cover;
+    background-color: #fefefe;
+}
+
+.demo-card-image > .mdl-card__actions {
+    height: 52px;
+    padding: 16px;
+    background: rgb(124, 77, 255);
+}
+.demo-card-image__filename {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#programmingLogo {
+    width: 50%;
+    display: flex;
+    margin: 50px auto;
+}
+
+.mdl-cell h1 {
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+.mdl-cell h2 {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+#qualification,
+#qualificationText {
+    color: #ffa000;
+}
+
+#addToList {
+    color: #0288d1;
+}
+
+#markAsFavourite {
+    color: #7b1fa2;
+}
+
+#chat {
+    color: #c2185b;
+}
+
+#gallery {
+    margin-bottom: 25px;
+}
+
+#repo {
+    color: #0288d1;
+}
+
+.galleryElement {
+    width: 90px;
+    min-height: initial;
+    height: 90px;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+/*IMAGE CARDS*/
+
+#typescriptCard {
+    background: url('../img/detalle/logos/typescript.svg') center / cover;
+    background-color: #fefefe;
+}
+
+#kotlinCard {
+    background: url('../img/detalle/logos/kotlin.svg') center / cover;
+    background-color: #fefefe;
+}
+
+#pythonCard {
+    background: url('../img/detalle/logos/python.svg') center / cover;
+    background-color: #fefefe;
+}
+
+#javascriptCard {
+    background: url('../img/detalle/logos/javascript.svg') center / cover;
+    background-color: #fefefe;
+}
+
+#valaCard {
+    background: url('../img/detalle/logos/vala.svg') center / cover;
+    background-color: #fefefe;
+}
+
+#cplusplusCard {
+    background: url('../img/detalle/logos/cplusplus.svg') center / cover;
+    background-color: #fefefe;
+}
+
+.mdl-list {
+    margin-top: 0;
+    background-color: #fefefe;
+}
+
+.mdl-list li:first-child {
+    padding-top: 0;
+}
+
+.contrProfile {
+    width: 40px;
+}
